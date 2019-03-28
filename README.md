@@ -16,6 +16,12 @@ npm install
 npm run lint
 ```
 
+### 提交测试
+```
+git add .
+git commit -m "测试提交"
+```
+
 ### 规则解释
 See [rule解释](https://cn.eslint.org/docs/rules/).
 
