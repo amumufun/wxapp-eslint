@@ -5,7 +5,12 @@ module.exports = {
     },
     "extends": "airbnb-base",
     "globals": {
-        "wx": "wx"
+    "wx": "wx",
+    "App": "App",
+    "Page": "Page",
+    "Component": "Component",
+    "getApp": "getApp",
+    "getCurrentPages": "getCurrentPages"
     },
     "parserOptions": {
         "ecmaVersion": 2018
@@ -27,6 +32,29 @@ module.exports = {
       'linebreak-style': 'off',
       'max-len': 'off',
       'no-restricted-syntax': 'off',
-      'import/order': 'warn'
+    'import/order': 'warn',
+    'indent': 'warn',
+    'no-trailing-spaces': 'warn',
+    'padded-blocks': 'warn',
+    'no-multiple-empty-lines': 'warn',
+    'space-before-blocks': 'warn',
+    'comma-spacing': 'warn',
+    'keyword-spacing': 'warn',
+    'space-infix-ops': 'warn',
+    'no-multi-spaces': 'warn',
+    'object-curly-spacing': 'warn',
+    'curly': 'warn',
+    'arrow-spacing': 'warn',
+    'no-debugger': 'warn',
+    'block-spacing': 'warn',
+    'space-unary-ops': 'warn',
+    'operator-linebreak': 'warn',
+    'semi-spacing': 'warn',
+    'brace-style': 'warn',
+    'dot-location': 'warn',
+    'space-in-parens': 'warn',
+    'no-regex-spaces': 'off',
+    'func-call-spacing': 'warn',
+    'standard/object-curly-even-spacing': 'warn',
     }
 };
